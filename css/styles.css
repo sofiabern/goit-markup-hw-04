@@ -171,8 +171,21 @@ img {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-
   background-color: var(--secondary-bg-color);
+}
+
+.overlay {
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-section/people-office\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -226,6 +239,33 @@ img {
 /* .feature-list-item:not(:last-child) { */
 /* margin-right: 24px; */
 /* } */
+.feature-list-item::before {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  content: "";
+  margin-bottom: 8px;
+}
+
+.feature-antenna::before {
+  background-image: url(../images/features-section/antenna\ 1.svg);
+}
+
+.feature-clock::before {
+  background-image: url(../images/features-section/clock\ 1.svg);
+}
+
+.feature-diagram::before {
+  background-image: url(../images/features-section/diagram\ 1.svg);
+}
+
+.feature-astronaut::before {
+  background-image: url(../images/features-section/astronaut\ 1.svg);
+}
 
 .feature-subtitle {
   margin-bottom: 8px;
@@ -280,6 +320,7 @@ img {
 .team-item-container {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 8px;
 }
 
 .team-worker-name {
@@ -296,6 +337,38 @@ img {
 .team-worker-role {
   font-size: 16px;
   text-align: center;
+}
+
+.team-icon-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.team-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.icon-instagram {
+  background-image: url(../images/team-section/instagram\ 2.svg);
+}
+
+.icon-twitter {
+  background-image: url(../images/team-section/twitter\ 1.svg);
+}
+
+.icon-facebook {
+  background-image: url(../images/team-section/facebook\ 1.svg);
+}
+
+.icon-linkedin {
+  background-image: url(../images/team-section/linkedin\ 1.svg);
 }
 
 /* Footer */
