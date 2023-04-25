@@ -72,7 +72,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid palevioletred; */
+  outline: 2px solid palevioletred;
 }
 
 /* Header */
@@ -283,7 +283,8 @@ img {
 }
 
 .duties-title,
-.team-title {
+.team-title,
+.customer-title {
   margin-bottom: 72px;
 
   color: var(--secondary-text-color);
@@ -311,6 +312,7 @@ img {
 }
 
 .team-item-bg {
+  /* padding: 32px 16px; */
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -341,12 +343,12 @@ img {
 
 .team-icon-list {
   display: flex;
+  /* padding: 32px 16px; */
   gap: 24px;
-  margin: 0 auto;
 }
 
 .team-icon {
-  display: block;
+  display: inline-block;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -369,6 +371,50 @@ img {
 
 .icon-linkedin {
   background-image: url(../images/team-section/linkedin\ 1.svg);
+}
+
+/* Customers section */
+.customer-icon-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customer-icon-item {
+  display: inline-flex;
+}
+
+.customer-icon {
+  display: inline-block;
+  width: 168px;
+  height: 88px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.company1 {
+  background-image: url(../images/customers-section/Logo.svg);
+}
+
+.company2 {
+  background-image: url(../images/customers-section/Logo1.svg);
+}
+
+.company3 {
+  background-image: url(../images/customers-section/Logo2.svg);
+}
+
+.company4 {
+  background-image: url(../images/customers-section/Logo3.svg);
+}
+
+.company5 {
+  background-image: url(../images/customers-section/Logo4.svg);
+}
+
+.company6 {
+  background-image: url(../images/customers-section/Logo5.svg);
 }
 
 /* Footer */
