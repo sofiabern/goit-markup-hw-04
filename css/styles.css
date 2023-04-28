@@ -72,7 +72,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid palevioletred;
+  /* outline: 2px solid palevioletred; */
 }
 
 /* Header */
@@ -240,6 +240,7 @@ img {
 
 .feature-icon-container {
   margin-bottom: 8px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,82 +329,61 @@ img {
   margin-bottom: 8px;
 }
 
-.team-icon-list {
+.team-social-list {
   display: flex;
-  /* padding: 32px 16px; */
   gap: 24px;
 }
 
-.team-icon {
-  display: inline-block;
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50%;
 }
 
-.icon-instagram {
-  background-image: url(../images/team-section/instagram\ 2.svg);
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
 }
 
-.icon-twitter {
-  background-image: url(../images/team-section/twitter\ 1.svg);
+.team-social-icon {
+  width: 16px;
+  height: 16px;
 }
-
-.icon-facebook {
-  background-image: url(../images/team-section/facebook\ 1.svg);
-}
-
-.icon-linkedin {
-  background-image: url(../images/team-section/linkedin\ 1.svg);
-}
-
 /* Customers section */
 .customer-icon-list {
   display: flex;
   gap: 24px;
+}
+
+.customer-icon-link {
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
 
-.customer-icon-item {
-  /* display: inline-flex; */
-  max-height: 88px;
-}
-
-.customer-icon {
-  display: inline-block;
   width: 168px;
   height: 88px;
-  background-repeat: no-repeat;
-  background-position: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
-.company1 {
-  background-image: url(../images/customers-section/Logo.svg);
+.customer-icon-link:hover,
+.customer-icon-link:focus {
+  border-color: #404bbf;
 }
 
-.company2 {
-  background-image: url(../images/customers-section/Logo1.svg);
+.customer-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
 }
 
-.company3 {
-  background-image: url(../images/customers-section/Logo2.svg);
-}
-
-.company4 {
-  background-image: url(../images/customers-section/Logo3.svg);
-}
-
-.company5 {
-  background-image: url(../images/customers-section/Logo4.svg);
-}
-
-.company6 {
-  background-image: url(../images/customers-section/Logo5.svg);
+.customer-icon-link:hover .customer-icon,
+.customer-icon-link:focus .customer-icon {
+  fill: #404bbf;
 }
 
 /* Footer */
