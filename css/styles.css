@@ -4,6 +4,7 @@
   --tertiary-bg-color: #f4f4fd;
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
+  --tertiary-text-color: #ffffff;
   --accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
 }
@@ -78,7 +79,7 @@ img {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -178,7 +179,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-section/people-office\ 1.jpg);
+    url(../images/hero-section/people-office.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -395,6 +396,12 @@ img {
 }
 
 /* Logo */
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -416,6 +423,15 @@ img {
   width: 264px;
 
   color: #f4f4fd;
+}
+
+.footer-social-text {
+  color: var(--tertiary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
