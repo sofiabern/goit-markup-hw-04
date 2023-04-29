@@ -400,7 +400,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
 .footer-logo {
@@ -414,6 +414,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer-logo-accent {
@@ -524,7 +528,7 @@ img {
 }
 
 .works-container:hover {
-  border: 1px solid #F4F4FD;
+  border: 1px solid #f4f4fd;
 }
 
 .works-subtitle {
