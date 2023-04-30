@@ -527,10 +527,6 @@ img {
   padding: 32px 16px;
 }
 
-.works-container:hover {
-  border: 1px solid #f4f4fd;
-}
-
 .works-subtitle {
   margin-bottom: 8px;
 
